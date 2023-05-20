@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tabelas</title>
+</head>
+<body>
+  <main>
+    <h1>Tabela no HTML</h1>    
+    
+    <section>
+      <h2>Tabela de Alunos</h2>
+
+      <table border="1">
+        <thead>
+          <tr>
+            <th>Nome</th>
+            <th>E-mail</th>
+            <th>Matricula</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Carol Denvers</td>
+            <td>carol.denvers@email.com</td>
+            <td>1</td>
+          </tr>
+
+          <tr>
+            <td>Peter parker</td>
+            <td>peter.parker@email.com</td>
+            <td>2</td>
+          </tr>
+
+          <tr>
+            <td>Tony Stark</td>
+            <td>tony.stark@email.com</td>
+            <td>3</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section>
+      <h2>Tabela de Controle Financeiro</h2>
+
+      <table border="2">
+        <tr>
+          <th>Data</th>
+          <th>Tipo</th>
+          <th>Descrição</th>
+          <th>Valor</th>
+        </tr>
+        <tr>
+          <!-- Mesclar linhas -->
+          <td rowspan="2">15/08/2002</td>
+          
+           <!-- Mesclar Colunas -->
+          <td colspan="2">Despesa</td>
+          <!-- <td>Almoço</td> -->
+          <td>R$: 50,00</td>
+        </tr>
+        <tr>         
+          <td>Receita</td>
+          <td>Salário</td>
+          <td>R$ 1350,00</td>
+        </tr>
+      </table>
+    </section>
+  </main>
+</body>
+</html>
