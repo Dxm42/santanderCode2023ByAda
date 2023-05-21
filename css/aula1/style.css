@@ -7,8 +7,14 @@ h1 {
   color: blue;
   background-color: aqua;
   font-weight: bold;
+  text-transform: capitalize;
   font-size: 90px;
   text-align: center;
+}
+p {
+  font-size: 18px;
+  text-align: justify;
+  text-indent: 90px;
 }
 
 .container {
